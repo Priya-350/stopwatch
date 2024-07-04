@@ -1,0 +1,157 @@
+body{
+    background-color: rgb(215, 215, 215);
+    
+}
+.st{
+   
+    margin-top:7rem ;
+   
+}
+h1{
+    font-size:4rem ;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+}
+#load{
+    height:150px;
+   
+    font-size:5rem ;
+    font-family: monospace;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline:5px solid black ;
+    padding:0px 5rem 5rem ;
+    margin-left:3rem ;
+    margin-right:3rem ;
+    margin-top:1rem ;
+    border-radius:30px ;
+    max-width: 450px;
+    background-color: white;
+   
+}
+.clk{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+#load p{
+  
+  color:hsl(0,0%,30%);
+  text-shadow: 2px 2px 2px 2px hsl(0,0%,0%,0.7);
+ 
+}
+.click button{
+    font-size:1.3rem ;
+    font-weight: bold;
+    margin-top:-70px ;
+    width:100px;
+    border-radius:6px ;
+
+}
+.click{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    column-gap:25px ;
+  
+}
+#red{
+  background-color: hsl(10,90%,50%);
+}
+#green{
+    background-color: hsl(115,90%,40%);
+  }
+  #blue{
+    background-color: hsl(205,90%,60%);
+  }
+  #red:hover{
+    background-color: hsl(10,90%,40%);
+  }
+  #green:hover{
+    background-color: hsl(115,90%,30%);
+  }
+  #blue:hover{
+    background-color: hsl(205,90%,40%);
+  }
+
+  @media (min-width:300px) and (max-width:450px){
+   
+    h1{
+        font-size:3rem ;
+    }
+    .st{
+        margin-top:9rem ;
+    }
+   #load{
+   
+    max-width:240px ;
+  
+    font-size:3rem ;
+    padding:0px 3rem 2rem ;
+   }
+   .click{
+      margin-top:15px ;
+      font-size:1rem ;
+   }
+   .click button{
+    font-size:1.3rem ;
+    width:70px;
+    
+   }
+   
+   
+
+
+  }
+  @media (min-width:450px) and (max-width:700px){
+    h1{
+        font-size:2.5rem ;
+    }
+    
+    #load{
+        width:380px;
+        
+       min-width: 350px;
+        font-size:3rem ;
+        padding:0px 3rem 3rem ;
+       }
+       .click{
+        margin-top:30px ;
+        font-size:1rem ;
+     }
+     .st{
+        margin-top: 10rem;
+     }
+  }
+  @media (orientation:portrait) and (max-width:1441px) and (min-width:1000px){
+    h1{
+        font-size:4.5rem ;
+    }
+    
+    #load{
+        width:640px;
+        
+       min-width: 650px;
+        font-size:5.5rem ;
+        padding:0px 3rem 7rem ;
+       }
+       .click{
+        margin-top:10px ;
+        
+        
+     }
+     .click button{
+        width:140px;
+        font-size:2.2rem ;
+     }
+     .st{
+      margin-top:26rem ;
+        
+     }
+  }
